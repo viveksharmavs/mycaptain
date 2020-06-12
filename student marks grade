@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main(void)
+{
+	int num;
+	printf("enter the marks of students   ");
+	scanf("%d",&num);
+	printf("you enter %d",num);
+	
+	//prints outputs
+	
+	if(num>=85)
+	{
+	printf("you got GRADE A");
+	}
+	else if(num>=70)
+	{
+		printf("you got GRADE B");
+	}
+	else if(num>=54)
+	{
+		printf("you got GRADE C");
+	}
+	else if(num>=40)
+	{
+		printf("you got GRADE D");
+	
+	}
+	else if(num>40)
+	{
+		printf("you got GRADE F");
+	}
+    return 0;   
+    
+}
